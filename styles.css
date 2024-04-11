@@ -1,0 +1,43 @@
+h1 {
+    front-size: 32px;
+    text-allign: center;
+    color:deeppink;
+}
+
+h2 {
+    font-size: 24px;
+    color:#e20f71;
+}
+
+a{
+   color:rgb(219, 55, 55);
+   text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+blockquote {
+    font-style: italic;
+    background-color:rgb(243, 140, 200)
+    border-left: 4px solid #e20f71;
+}
+
+body{
+    background-color: #ffafd4;
+
+}
+table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  table {
+    border-collapse: separate; 
+    border-spacing: 10px; 
+  }
+  
+
