@@ -35,9 +35,43 @@ table {
     border: 1px solid black;
     padding: 8px;
   }
-  table {
-    border-collapse: separate; 
-    border-spacing: 10px; 
-  }
   
+  table {
+    border-collapse: separate; /* Garante que o border-spacing seja aplicado */
+    border-spacing: 10px; /* Define o espaço entre as bordas das células */
+  }
+       
+  
+
+
+form{
+    color: rgb(0, 0, 0);
+}  
+  .container {
+     width: 400px;
+     margin: 0 auto;
+     padding: 20px;
+     border-radius: 10px;
+     background: linear-gradient(to right, #7919d3, #f5d6e5); 
+ }
+
+ label {
+     font-weight: bold;
+ }
+ input[type="text"],
+ input[type="number"],
+ textarea {
+     width: 100%;
+     padding: 8px;
+     margin: 6px 0;
+     box-sizing: border-box;
+ }
+ input[type="submit"] {
+     background-color: #ffade0;
+     color: rgb(0, 0, 0);
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+ }
 
